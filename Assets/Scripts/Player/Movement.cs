@@ -40,8 +40,15 @@ public class Movement : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
 
 
-        
-        
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            transform.localScale = new Vector3(1f, 0.3f, 1f);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
             
 
 
