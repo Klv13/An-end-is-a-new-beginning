@@ -15,7 +15,7 @@ public class HotTub : MonoBehaviour
         //Will Reset if True
         if(PlayerIn && Hastoster)
         {
-            Debug.Log("reset");
+            gameManager.ResetLevel();
         }
     }
 
@@ -23,13 +23,13 @@ public class HotTub : MonoBehaviour
     {
         if(other.tag.ToString() == "Toaster")
         {
-            Debug.Log("Toaster IND");
+            
             Hastoster = true;
         }
 
         if (other.tag.ToString() == "Player")
         {
-            Debug.Log("Toaster IND");
+            
             PlayerIn = true;
         }
     }

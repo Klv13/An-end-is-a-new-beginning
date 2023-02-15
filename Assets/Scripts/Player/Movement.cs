@@ -47,7 +47,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
         }
             
 

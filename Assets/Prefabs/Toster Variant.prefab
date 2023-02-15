@@ -25,15 +25,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.877
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_Name
-      value: Toster
+      value: Toster Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 785163f286d4b464e888197006ae510a, type: 3}
       propertyPath: m_Layer

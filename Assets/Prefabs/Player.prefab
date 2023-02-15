@@ -108,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2157506214148955410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.75}
+  m_LocalPosition: {x: 0, y: 0, z: 1.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 2157506214297150735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2157506214109524699}
@@ -182,7 +182,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2157506214297150731
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2157506214297150733}
   speed: 12
-  gravity: -29.43
+  gravity: -58.86
   jumHeight: 2
   groundCheck: {fileID: 2157506215956725555}
   groundDistance: 0.4
@@ -223,7 +223,7 @@ MonoBehaviour:
     m_Bits: 128
   PlayerCamera: {fileID: 2157506215334235557}
   PickupTarget: {fileID: 2157506214148955411}
-  PickupRange: 2
+  PickupRange: 3
   speed: 12
   EtoPickub: {fileID: 0}
 --- !u!1 &2157506215334235559
@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 2157506215334235557}
   - component: {fileID: 2157506215334235556}
   - component: {fileID: 2157506215334235555}
+  - component: {fileID: 54740471226482347}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -253,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2157506215334235559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0.11}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -284,7 +285,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 90
   orthographic: 0
@@ -326,6 +327,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sens: 1000
   playerBody: {fileID: 2157506214297150730}
+--- !u!114 &54740471226482347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157506215334235559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2157506215335061446
 GameObject:
   m_ObjectHideFlags: 0
