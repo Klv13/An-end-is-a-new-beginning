@@ -234,7 +234,6 @@ Transform:
   - {fileID: 208948449}
   - {fileID: 1339651818}
   - {fileID: 776268787}
-  - {fileID: 1802121463}
   - {fileID: 52237373}
   - {fileID: 2034807710}
   - {fileID: 1719722546}
@@ -1061,11 +1060,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c052f49a8a97a2a4e9e3a8ba1c54b198, type: 3}
---- !u!4 &1802121463 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 449357638267635111, guid: c052f49a8a97a2a4e9e3a8ba1c54b198, type: 3}
-  m_PrefabInstance: {fileID: 1757398616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1888620589
 PrefabInstance:
   m_ObjectHideFlags: 0
