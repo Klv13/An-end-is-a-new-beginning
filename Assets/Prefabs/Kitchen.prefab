@@ -282,6 +282,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7729383, y: 1.1130542, z: 3.1067119}
   m_Center: {x: 0.16927645, y: 0.39186433, z: -0.1562717}
+--- !u!114 &2495659224411942845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208823739307017009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d65aa4334be2647af7c5fe007e9f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tag: poison
 --- !u!4 &697552962412616075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcd1e14248f52b740b0a4a3ddbd11dc9, type: 3}
