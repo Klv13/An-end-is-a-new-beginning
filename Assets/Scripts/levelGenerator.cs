@@ -26,7 +26,7 @@ public class levelGenerator : MonoBehaviour
         }
         for (int i = 0; i < MiddlePositions.Count; i++)
         {
-            int Rand = Random.Range(0, cornerRooms.Count);
+            int Rand = Random.Range(0, MiddleRooms.Count);
 
             Debug.Log("Generated Middle");
             Instantiate(MiddleRooms[Rand], MiddlePositions[i].transform.position, MiddlePositions[i].transform.rotation);

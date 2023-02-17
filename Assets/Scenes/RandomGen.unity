@@ -188,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddleRooms.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: cornerRooms.Array.size
@@ -201,11 +201,19 @@ PrefabInstance:
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddleRooms.Array.data[1]
       value: 
-      objectReference: {fileID: 3032045111374256425, guid: 155c9b28c48858a4b8649ac41d6070bc, type: 3}
+      objectReference: {fileID: 1462226880576387795, guid: 97e05ae8d6cd4264e9d48249b8b5f14f, type: 3}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddleRooms.Array.data[2]
       value: 
-      objectReference: {fileID: 1462226880576387795, guid: 97e05ae8d6cd4264e9d48249b8b5f14f, type: 3}
+      objectReference: {fileID: 3032045111374256425, guid: 155c9b28c48858a4b8649ac41d6070bc, type: 3}
+    - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
+      propertyPath: MiddleRooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 7990177795132021592, guid: 515cdce02cf0d7a48bce71004f6afdb4, type: 3}
+    - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
+      propertyPath: MiddleRooms.Array.data[4]
+      value: 
+      objectReference: {fileID: 7990177795132021592, guid: 515cdce02cf0d7a48bce71004f6afdb4, type: 3}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: cornerRooms.Array.data[0]
       value: 
@@ -902,6 +910,14 @@ PrefabInstance:
     - target: {fileID: 2157506214297150735, guid: 91660415903da9c42b1170063f073ffa, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157506215334235559, guid: 91660415903da9c42b1170063f073ffa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685292599706742084, guid: 91660415903da9c42b1170063f073ffa, type: 3}
+      propertyPath: antialiasingMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91660415903da9c42b1170063f073ffa, type: 3}
