@@ -233,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: cornerRooms.Array.data[3]
       value: 
-      objectReference: {fileID: 6367074006388103955, guid: 2ae40f25e8322874d963bcf0d17893b7, type: 3}
+      objectReference: {fileID: 6763190556187277698, guid: ec17e7432431c2348948e924a71c4f30, type: 3}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddlePositions.Array.size
       value: 4
