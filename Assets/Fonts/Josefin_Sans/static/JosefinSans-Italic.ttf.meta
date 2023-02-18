@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 4ede1ed62f6f3e04bb24e9e05ce20e5b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Josefin Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c66dcfe35c6821f4aab48bfc8cc878ad, type: 3}
+  - {fileID: 12800000, guid: d0602f6b8eee00a4f845b4b4e63b98d4, type: 3}
+  - {fileID: 12800000, guid: 7a9f495f54ee7f744b037aa40256fcc7, type: 3}
+  - {fileID: 12800000, guid: 672845c089b23d94fb83755ec30a5cfa, type: 3}
+  - {fileID: 12800000, guid: 2bdc517d055448544a829e82095a1c24, type: 3}
+  - {fileID: 12800000, guid: 5587d139e1474ca44896f4211e95bf92, type: 3}
+  - {fileID: 12800000, guid: 5ce093496019b2744ac5ee61bca9c5d5, type: 3}
+  - {fileID: 12800000, guid: 98bb40d1569cb3349bc3179e53393bd7, type: 3}
+  - {fileID: 12800000, guid: 5995739509999b842b17c2ffd9b9fa95, type: 3}
+  - {fileID: 12800000, guid: 051cc84049572e6409bb8c1593e75630, type: 3}
+  - {fileID: 12800000, guid: 3a3bb0a37266beb4583e941e4ac52321, type: 3}
+  - {fileID: 12800000, guid: d019ebb35035842448a2b292158122b5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

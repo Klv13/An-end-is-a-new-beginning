@@ -8,6 +8,13 @@ public class HotTub : MonoBehaviour
     bool Hastoster;
     bool PlayerIn;
 
+    public gameManager gameManager;
+
+    private void Start()
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {

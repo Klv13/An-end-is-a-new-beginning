@@ -522,6 +522,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1008865081882284709, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969916110819337333, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5655096124614330085, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -610,6 +618,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6323340407332979326, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323340407332979326, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323340407332979326, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 7400000, guid: 6c07d5add72b0b049bb5f6006cd89a6f, type: 2}
+    - target: {fileID: 6323340407332979326, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 6c07d5add72b0b049bb5f6006cd89a6f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
 --- !u!1 &871837493

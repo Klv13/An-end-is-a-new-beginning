@@ -295,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: poison
+  gameManager: {fileID: 1740750860456268939, guid: 5d441dff56a04a6469f1b5f9ffd06281, type: 3}
 --- !u!4 &697552962412616075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcd1e14248f52b740b0a4a3ddbd11dc9, type: 3}
