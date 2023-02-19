@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Turtorial.unity
     guid: 51e8d2dbd015142418b0f5cb532ab2ff
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: acb9dc6b3fc57224f913ff5e8d5cb34e
   m_configObjects: {}

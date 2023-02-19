@@ -107,4 +107,8 @@ public class gameManager : MonoBehaviour
     {
         Application.OpenURL("https://klv13.github.io/AnEndIsANewBeginningWiki/");
     }
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
