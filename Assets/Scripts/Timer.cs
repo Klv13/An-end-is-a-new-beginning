@@ -21,7 +21,5 @@ public class Timer : MonoBehaviour
     {
         tid += Time.deltaTime *multi; 
         TextMesh.text = tid.ToString().Remove(tid.ToString().IndexOf(","));
-        
-        
     }
 }

@@ -8,6 +8,7 @@ public class gameManager : MonoBehaviour
 
 
     private static gameManager self;
+    
    
 
     private void Update()
