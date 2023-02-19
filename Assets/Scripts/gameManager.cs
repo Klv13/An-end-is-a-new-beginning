@@ -21,6 +21,16 @@ public class gameManager : MonoBehaviour
         }
     }
 
+    private void OnLevelWasLoaded(int level)
+    {
+        if(level == 0)
+        {
+            Debug.Log("Menu");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+    }
+
     private void Start()
     {
 
@@ -46,7 +56,15 @@ public class gameManager : MonoBehaviour
 
     public void ResetLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if(SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
 
     }
 
@@ -80,5 +98,13 @@ public class gameManager : MonoBehaviour
     public void LoadSettings()
     {
         SceneManager.LoadScene(2);
+    }
+    public void LoasTurtorial()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void OpenWiki()
+    {
+        Application.OpenURL("https://klv13.github.io/AnEndIsANewBeginningWiki/");
     }
 }

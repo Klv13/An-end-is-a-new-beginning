@@ -8,6 +8,8 @@ TagManager:
   - Key
   - poison
   - gameManager
+  - batteri
+  - USB
   layers:
   - Default
   - TransparentFX

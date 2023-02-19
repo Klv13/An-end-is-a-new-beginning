@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddleRooms.Array.data[1]
       value: 
-      objectReference: {fileID: 3032045111374256425, guid: 155c9b28c48858a4b8649ac41d6070bc, type: 3}
+      objectReference: {fileID: 7990177795132021592, guid: 515cdce02cf0d7a48bce71004f6afdb4, type: 3}
     - target: {fileID: 6533769622378288365, guid: 8f0a97a2aa5dc4a4d9d5a12453ac6097, type: 3}
       propertyPath: MiddleRooms.Array.data[2]
       value: 
@@ -528,7 +528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1969916110819337333, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5655096124614330085, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
       propertyPath: m_Name
@@ -616,6 +616,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5655096124614330086, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537569, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537570, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537570, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_text
+      value: E TO INTERACT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6311822523028916999, guid: 21c64fb170d345d418011c29ec1dcfca, type: 2}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4292320255
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655096125118537571, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6323340407332979326, guid: 5d04bba2c7c904043bdd1ec67feed9ea, type: 3}
@@ -891,6 +935,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 54740471226482347, guid: 91660415903da9c42b1170063f073ffa, type: 3}
+      propertyPath: m_Antialiasing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2157506214297150728, guid: 91660415903da9c42b1170063f073ffa, type: 3}
       propertyPath: EtoPickub
       value: 
@@ -946,10 +994,6 @@ PrefabInstance:
     - target: {fileID: 2157506215334235559, guid: 91660415903da9c42b1170063f073ffa, type: 3}
       propertyPath: m_Layer
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8685292599706742084, guid: 91660415903da9c42b1170063f073ffa, type: 3}
-      propertyPath: antialiasingMode
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91660415903da9c42b1170063f073ffa, type: 3}
